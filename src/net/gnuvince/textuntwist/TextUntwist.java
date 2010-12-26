@@ -62,13 +62,13 @@ public class TextUntwist {
         Scanner scanner = null;
         try {
             scanner = new Scanner(new File(args[0]));
-            TextUntwist tt = new TextUntwist(args[1]);
+            TextUntwist untwister = new TextUntwist(args[1]);
             Robot robot = new Robot();
 
             countDown(3); // Give time to switch to game
             while (scanner.hasNext()) {
                 String word = scanner.next();
-                if (tt.isSubWord(word)) {
+                if (untwister.isSubWord(word)) {
                     word = word.toUpperCase(); // Letters have to be typed in upper case.
                     for (int i = 0; i < word.length(); ++i) {
                         robot.keyPress(word.charAt(i));
