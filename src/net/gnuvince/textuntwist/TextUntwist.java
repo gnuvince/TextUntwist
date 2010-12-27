@@ -56,7 +56,7 @@ public class TextUntwist {
 
     public static void main(String[] args) {
         if (args.length < 2) {
-            System.err.println("Usage: TextTwist <dict> <word>");
+            System.err.println("Usage: TextUntwist <dict> <word>");
             System.exit(1);
         }
         Scanner scanner = null;
