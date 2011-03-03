@@ -9,7 +9,7 @@ Letterblox on omgpop.com.
 Usage
 -----
 
-$ java -cp bin/ net.gnuvince.textuntwist.TextUntwist <dictionary> <letters>
+$ java -cp bin/ net.gnuvince.textuntwist.TextUntwist \<dictionary\> \<letters\>
 
 
 Screencast
